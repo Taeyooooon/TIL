@@ -1,2 +1,2 @@
 # TIL
-TIL &amp; Algorithm
+TIL &amp; Algorithm &amp; CS 공부 기록
