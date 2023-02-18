@@ -17,6 +17,6 @@ function solution(s) {
   return s
   .toLowerCase()
   .split(" ")
-  .map((v) => v.charAt(0).toUpperCase() + v.substring(1))
+  .map((item) => item.charAt(0).toUpperCase() + item.substring(1))
   .join(" ");
 }
