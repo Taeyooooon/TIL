@@ -14,10 +14,9 @@
 // "for the last week"	"For The Last Week"
 
 function solution(s) {
-  const split2 = s.split(" ")
-  return answer = split2.map((item)=>{
-      item = item.toLowerCase().split('')
-      item[0] = item[0].toUpperCase()
-      return item.join("")
-  }).join(' ')
+  return s
+  .toLowerCase()
+  .split(" ")
+  .map((v) => v.charAt(0).toUpperCase() + v.substring(1))
+  .join(" ");
 }
