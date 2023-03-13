@@ -9,6 +9,8 @@ const Main = () => {
       <Link to={'/usetabs'}>UseTabs</Link>
       <br />
       <Link to={'./usetitle'}>UseTitle</Link>
+      <br />
+      <Link to={'./useclick'}>UseClick</Link>
     </div>
   );
 };
