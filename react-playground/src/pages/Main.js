@@ -11,6 +11,8 @@ const Main = () => {
       <Link to={'./usetitle'}>UseTitle</Link>
       <br />
       <Link to={'./useclick'}>UseClick</Link>
+      <br />
+      <Link to={'./useconfirm'}>UseConfirm</Link>
     </div>
   );
 };

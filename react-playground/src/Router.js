@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import UseClick from './pages/customHooks/UseClick';
+import UseConfirm from './pages/customHooks/UseConfirm';
 import UseInput from './pages/customHooks/UseInput';
 import UseTabs from './pages/customHooks/UseTabs';
 import UseTitle from './pages/customHooks/UseTitle';
@@ -15,6 +16,7 @@ const Router = () => {
         <Route path='/usetabs' element={<UseTabs />} />
         <Route path='/usetitle' element={<UseTitle />} />
         <Route path='/useclick' element={<UseClick />} />
+        <Route path='/useconfirm' element={<UseConfirm />} />
       </Routes>
     </BrowserRouter>
   );
