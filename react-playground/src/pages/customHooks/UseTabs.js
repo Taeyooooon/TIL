@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { useTabs } from '../../hooks/useTabs';
 
 const CONTENT = [
@@ -17,6 +18,7 @@ const UseTabs = () => {
 
   return (
     <div>
+      <Link to={'/'}>MAIN</Link>
       <h1>UseTabs</h1>
       {CONTENT.map((content, index) => {
         return (
