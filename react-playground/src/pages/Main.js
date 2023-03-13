@@ -7,6 +7,8 @@ const Main = () => {
       <Link to={'/useinput'}>UseInput</Link>
       <br />
       <Link to={'/usetabs'}>UseTabs</Link>
+      <br />
+      <Link to={'./usetitle'}>UseTitle</Link>
     </div>
   );
 };
