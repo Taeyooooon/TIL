@@ -10,6 +10,7 @@ import UseFadeIn from './pages/customHooks/UseFadeIn';
 import UseTitle from './pages/customHooks/UseTitle';
 import Main from './pages/Main';
 import UseNetwork from './pages/customHooks/UseNetwork';
+import UseScroll from './pages/customHooks/UseScroll';
 
 const Router = () => {
   return (
@@ -25,6 +26,7 @@ const Router = () => {
         <Route path='/usebeforeleave' element={<UseBeforeLeave />} />
         <Route path='/usefadein' element={<UseFadeIn />} />
         <Route path='/usenetwork' element={<UseNetwork />} />
+        <Route path='/usescroll' element={<UseScroll />} />
       </Routes>
     </BrowserRouter>
   );

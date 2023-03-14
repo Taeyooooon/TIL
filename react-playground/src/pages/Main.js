@@ -21,6 +21,8 @@ const Main = () => {
       <Link to={'/usefadein'}>UseFadeIn</Link>
       <br />
       <Link to={'/usenetwork'}>UseNetwork</Link>
+      <br />
+      <Link to={'/usescroll'}>UseScroll</Link>
     </div>
   );
 };
