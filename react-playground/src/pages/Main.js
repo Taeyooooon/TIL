@@ -8,11 +8,13 @@ const Main = () => {
       <br />
       <Link to={'/usetabs'}>UseTabs</Link>
       <br />
-      <Link to={'./usetitle'}>UseTitle</Link>
+      <Link to={'/usetitle'}>UseTitle</Link>
       <br />
-      <Link to={'./useclick'}>UseClick</Link>
+      <Link to={'/useclick'}>UseClick</Link>
       <br />
-      <Link to={'./useconfirm'}>UseConfirm</Link>
+      <Link to={'/useconfirm'}>UseConfirm</Link>
+      <br />
+      <Link to={'/usepreventleave'}>UsePreventLeave</Link>
     </div>
   );
 };
