@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import UseBeforeLeave from './pages/customHooks/UseBeforeLeave';
 import UseClick from './pages/customHooks/UseClick';
 import UseConfirm from './pages/customHooks/UseConfirm';
 import UseInput from './pages/customHooks/UseInput';
@@ -19,6 +20,7 @@ const Router = () => {
         <Route path='/useclick' element={<UseClick />} />
         <Route path='/useconfirm' element={<UseConfirm />} />
         <Route path='/usepreventleave' element={<UsePreventLeave />} />
+        <Route path='/usebeforeleave' element={<UseBeforeLeave />} />
       </Routes>
     </BrowserRouter>
   );

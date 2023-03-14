@@ -15,6 +15,8 @@ const Main = () => {
       <Link to={'/useconfirm'}>UseConfirm</Link>
       <br />
       <Link to={'/usepreventleave'}>UsePreventLeave</Link>
+      <br />
+      <Link to={'/usebeforeleave'}>UseBeforeLeave</Link>
     </div>
   );
 };
