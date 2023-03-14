@@ -23,6 +23,8 @@ const Main = () => {
       <Link to={'/usenetwork'}>UseNetwork</Link>
       <br />
       <Link to={'/usescroll'}>UseScroll</Link>
+      <br />
+      <Link to={'/usefullscreen'}>UseFullScreen</Link>
     </div>
   );
 };
