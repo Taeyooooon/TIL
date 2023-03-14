@@ -6,6 +6,7 @@ import UseConfirm from './pages/customHooks/UseConfirm';
 import UseInput from './pages/customHooks/UseInput';
 import UsePreventLeave from './pages/customHooks/UsePreventLeave';
 import UseTabs from './pages/customHooks/UseTabs';
+import UseFadeIn from './pages/customHooks/UseFadeIn';
 import UseTitle from './pages/customHooks/UseTitle';
 import Main from './pages/Main';
 
@@ -21,6 +22,7 @@ const Router = () => {
         <Route path='/useconfirm' element={<UseConfirm />} />
         <Route path='/usepreventleave' element={<UsePreventLeave />} />
         <Route path='/usebeforeleave' element={<UseBeforeLeave />} />
+        <Route path='/usefadein' element={<UseFadeIn />} />
       </Routes>
     </BrowserRouter>
   );
