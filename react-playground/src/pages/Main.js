@@ -19,6 +19,8 @@ const Main = () => {
       <Link to={'/usebeforeleave'}>UseBeforeLeave</Link>
       <br />
       <Link to={'/usefadein'}>UseFadeIn</Link>
+      <br />
+      <Link to={'/usenetwork'}>UseNetwork</Link>
     </div>
   );
 };

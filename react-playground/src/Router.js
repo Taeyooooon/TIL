@@ -9,6 +9,7 @@ import UseTabs from './pages/customHooks/UseTabs';
 import UseFadeIn from './pages/customHooks/UseFadeIn';
 import UseTitle from './pages/customHooks/UseTitle';
 import Main from './pages/Main';
+import UseNetwork from './pages/customHooks/UseNetwork';
 
 const Router = () => {
   return (
@@ -23,6 +24,7 @@ const Router = () => {
         <Route path='/usepreventleave' element={<UsePreventLeave />} />
         <Route path='/usebeforeleave' element={<UseBeforeLeave />} />
         <Route path='/usefadein' element={<UseFadeIn />} />
+        <Route path='/usenetwork' element={<UseNetwork />} />
       </Routes>
     </BrowserRouter>
   );
