@@ -25,6 +25,8 @@ const Main = () => {
       <Link to={'/usescroll'}>UseScroll</Link>
       <br />
       <Link to={'/usefullscreen'}>UseFullScreen</Link>
+      <br />
+      <Link to={'/usenotification'}>UseNotification</Link>
     </div>
   );
 };
