@@ -13,6 +13,7 @@ import UseNetwork from './pages/customHooks/UseNetwork';
 import UseScroll from './pages/customHooks/UseScroll';
 import UseFullScreen from './pages/customHooks/UseFullScreen';
 import UseNotification from './pages/customHooks/UseNotification';
+import UseAxios from './pages/customHooks/UseAxios';
 
 const Router = () => {
   return (
@@ -31,6 +32,7 @@ const Router = () => {
         <Route path='/usescroll' element={<UseScroll />} />
         <Route path='/usefullscreen' element={<UseFullScreen />} />
         <Route path='/usenotification' element={<UseNotification />} />
+        <Route path='/useaxios' element={<UseAxios />} />
       </Routes>
     </BrowserRouter>
   );

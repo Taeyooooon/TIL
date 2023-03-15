@@ -27,6 +27,8 @@ const Main = () => {
       <Link to={'/usefullscreen'}>UseFullScreen</Link>
       <br />
       <Link to={'/usenotification'}>UseNotification</Link>
+      <br />
+      <Link to={'/useaxios'}>UseAxios</Link>
     </div>
   );
 };
