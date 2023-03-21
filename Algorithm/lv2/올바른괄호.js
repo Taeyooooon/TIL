@@ -15,6 +15,8 @@
 // ")()("	false
 // "(()("	false
 
+// 첫번째 풀이
+
 function solution(str) {
   let result = 0;
   for (let i = 0; i < str.length; i++) {
@@ -26,4 +28,15 @@ function solution(str) {
     if (result < 0) return false;
   }
   return result === 0 ? true : false;
+}
+
+// 두번째 풀이
+
+function solution(str) {
+  let result = 0;
+  for (let i = 0; i < str.length; i++) {
+    result += str[i] === '(' ? 1 : -1;
+    if (result < 0) return false;
+  }
+  return result === 0;
 }
